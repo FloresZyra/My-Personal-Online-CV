@@ -1,4 +1,4 @@
-import profile from './assets/images/profile.jpg';
+import profilePic from '../assets/images/profile.jpg';
 
 function About() {
     return (
@@ -6,7 +6,7 @@ function About() {
                 <div class="container">
                     <section id="About_Me" class="card">
                         <h2>About Me</h2>
-                        <img id="ProfilePic" src={profile} alt="Profile photo"></img>
+                        <img id="ProfilePic" src={profilePic} alt="Profile photo"></img>
 
                             <p>Email:
                                 <a href="mailto:flores.zyra0605@gmail.com">flores.zyra0605@gmail.com</a><br></br>
