@@ -75,7 +75,7 @@ button:focus-visible {
 
 .dark-mode{
   background-color: black;
-  background-image: url("../assets/images/darkmodeBG.avif");
+  background-image: url("./assets/images/darkmodeBG.avif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -130,7 +130,7 @@ button:focus-visible {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-image: url("../assets/images/Pinkbg.jpg");
+  background-image: url("./assets/images/Pinkbg.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
