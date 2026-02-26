@@ -1,0 +1,247 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  }
+
+
+.dark-mode{
+  background-color: black;
+  line-height: 1.6;
+  background-image: url("src/assets/images/darkmodeBG.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 20px;
+  color: white;
+
+}
+
+.dark-mode .card{
+  background-color: grey;
+}
+
+.dark-mode button{
+  padding: 10px;
+  background-color: rgb(194, 31, 113);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dark-mode th {
+  background-color: rgb(194, 31, 113);
+  color: white;
+
+}
+
+.dark-mode #ProfilePic{
+  border: 5px;
+  border-style: solid;
+  border-color: rgb(194, 31, 113);
+  width: 150px;
+  height: 200px;
+}
+
+#themeToggle{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+#toggleSkills{
+  position: absolute;
+  top: 847px;
+  right: 552px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url("src/assets/images/Pinkbg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: scroll;
+  padding: 20px;
+  }
+
+.container {
+  max-width: fit-content;
+  margin: 0 auto;
+  }
+
+.card {
+  position: relative;
+  padding-top: 40px;
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+/* || Typography */
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  }
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  }
+p {
+  text-align: center;
+  margin-bottom: 10px;
+  }
+
+ul {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  }
+
+a {
+  text-decoration: none;
+  color: pink;
+  }
+
+a:hover {
+  color: rgb(148, 224, 243);
+  }
+
+
+#ProfilePic{
+  border: 5px;
+  border-style: solid;
+  border-color: pink;
+  width: 150px;
+  height: 200px;
+}
+
+#subtitle{
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  }
+  
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  }
+
+th {
+  background-color: pink;
+  color: white;
+  }
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  }
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  }
+
+button {
+  padding: 10px;
+  background-color: pink;
+  color: white;
+  border: none;
+  cursor: pointer;
+  }
+
+button:hover {
+  background-color: rgb(147, 190, 224);
+  }
+
+
+#Copyright{
+      text-align: right;
+  }
