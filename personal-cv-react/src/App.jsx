@@ -9,11 +9,11 @@ function App() {
   const [darkMode, setDarkMode] = useState(false);
   return (
     <><div className={darkMode ? "dark-mode" : ""}>
-      <button onClick={() => setDarkMode(!darkMode)}>
+      <button id="themeToggle" onClick={() => setDarkMode(!darkMode)}>
         Toggle Dark Mode
       </button>
       <><div>
-        <h1>My Personal Online CV</h1>
+        <h1 id="Title">My Personal Online CV</h1>
       </div></>
         <Header />
         <About />

@@ -4,7 +4,7 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
+  color: rgb(0, 0, 0);
   background-color: #242424;
 
   font-synthesis: none;
@@ -75,7 +75,6 @@ button:focus-visible {
 
 .dark-mode{
   background-color: black;
-  line-height: 1.6;
   background-image: url("src/assets/images/darkmodeBG.avif");
   background-repeat: no-repeat;
   background-position: center;
@@ -108,20 +107,24 @@ button:focus-visible {
   border: 5px;
   border-style: solid;
   border-color: rgb(194, 31, 113);
-  width: 150px;
-  height: 200px;
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
 }
 
 #themeToggle{
-  position: absolute;
-  top: 15px;
-  right: 15px;
+  position: absolute !important; 
+  top: 50px !important;
+  right: 50px !important;       
+  left: auto !important;        
+  width: auto;
 }
 
 #toggleSkills{
   position: absolute;
-  top: 847px;
-  right: 552px;
+  top: 15px;
+  left: 15px;
+  right: auto;
 }
 
 body {
@@ -141,6 +144,11 @@ body {
   }
 
 .card {
+  display: flex;          
+  flex-direction: column; 
+  align-items: center;    
+  text-align: center;
+
   position: relative;
   padding-top: 40px;
   background: #ffffff;
@@ -151,6 +159,14 @@ body {
   }
 
 /* || Typography */
+#Title{
+  background-color: rgba(255, 255, 255, 0.5);
+  border: dotted;
+  border-width: 10px;
+  border-color: pink;
+  padding: 15px;
+}
+
 h1 {
   text-align: center;
   margin-bottom: 10px;
@@ -185,8 +201,9 @@ a:hover {
   border: 5px;
   border-style: solid;
   border-color: pink;
-  width: 150px;
-  height: 200px;
+  border-radius: 50%;
+  width: 300px;
+  height: 400px;
 }
 
 #subtitle{
@@ -213,7 +230,9 @@ form {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  }
+  width: 100%; 
+  margin-top: 20px;
+}
 
 .hidden {
   visibility: hidden;
@@ -224,14 +243,17 @@ form {
 }
 
 input, textarea {
-  padding: 8px;
+  width: 100%;
+  padding: 12px;
+  background-color: #ffffff;
+  color: #000000;
   border: 1px solid #ccc;
   border-radius: 4px;
-  }
+}
 
 button {
   padding: 10px;
-  background-color: pink;
+  background-color: palevioletred;
   color: white;
   border: none;
   cursor: pointer;
