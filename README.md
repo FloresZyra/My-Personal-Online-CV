@@ -1,2 +1,2 @@
-# module2-html
-This repository contains my personal cv activity 2
+# Web Systems and Technologies Activities
+This repository contains my personal cv activity
