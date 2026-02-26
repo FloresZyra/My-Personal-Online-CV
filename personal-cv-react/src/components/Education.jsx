@@ -1,7 +1,7 @@
 function Education() {
     return (
         <div>
-            <section class="card">
+            <section className="card">
                 <h2>Education</h2>
 
                 <table>

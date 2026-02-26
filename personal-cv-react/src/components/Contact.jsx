@@ -1,7 +1,7 @@
 function Contact() {
     return (
         <div>
-            <><section class="card">
+            <><section className="card">
                 <h2>Contact Me</h2>
                 <form>
                     <input type="text" id="name" placeholder="Name" />

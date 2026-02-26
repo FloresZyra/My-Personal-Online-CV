@@ -1,10 +1,11 @@
+import React from 'react';
 import profilePic from '../assets/images/profile.jpg';
 
 function About() {
     return (
         <><main>
-                <div class="container">
-                    <section id="About_Me" class="card">
+                <div className="container">
+                    <section id="About_Me" className="card">
                         <h2>About Me</h2>
                         <img id="ProfilePic" src={profilePic} alt="Profile photo"></img>
 
