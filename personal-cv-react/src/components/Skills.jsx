@@ -1,33 +1,23 @@
 import { useState } from "react";
-function Skills() {
-    const [visible, setVisible] = useState(true);
+
+function Skills({ skills }) {
+    const[visible, setVisible]=useState(true);
     return (
-        
         <section className="card">
-            <button onClick={() => setVisible(!visible)}>
-                Show/Hide Skills
+            <button onClick={() => setVisible(!visible)}>           
+                {visible ? "Hide" : "Show"}
             </button>
+            <h2>Skills</h2>
             {visible && (
-                <><h2>Skills</h2><><ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul><ul>
-                        <li>Web Development
-                            <ul>
-                                <li>Frontend
-                                    <ul>
-                                        <li>HTML</li>
-                                        <li>CSS</li>
-                                        <li>JavaScript</li>
-                                    </ul>
-                                </li>
-                                <li>Backend</li>
-                            </ul>
-                        </li>
-                    </ul></></>
+                <ul>
+                    {skills.map((skill, index) => (
+                        <li key={index}>{skill}</li>
+                    ))}
+                </ul>
             )}
         </section>
     );
-}
+} <button onClick={() => setVisible(!visible)}>
+                Show/Hide Skills
+            </button>
 export default Skills

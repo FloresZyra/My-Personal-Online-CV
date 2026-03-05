@@ -7,6 +7,36 @@ import { useState } from "react";
 
 function App() {
   const [darkMode, setDarkMode] = useState(false);
+  const skills = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React"
+  ]
+  const education = [
+    {
+      year: "2028",
+      program: "BS Information Technology",
+      school: "USTP -CDO Campus"
+    },
+    {
+      year: "2024",
+      program: "Senior High School",
+      school: "Liceo de Cagayan University"
+    },
+    {
+      year: "2022",
+      program: "HIgh School",
+      school: "Pedro 'Oloy' N. Roa Sr. High School"
+    },
+    {
+      year: "2018",
+      program: "Elementary School",
+      school: "Pedro 'Oloy' N. Roa Sr. Elementary School"
+    }
+    
+  ];
+    
   return (
     <><div className={darkMode ? "dark-mode" : ""}>
       <button id="themeToggle" onClick={() => setDarkMode(!darkMode)}>
@@ -17,8 +47,8 @@ function App() {
       </div></>
         <Header />
         <About />
-        <Skills />
-        <Education />
+        <Skills skills={skills} />
+        <Education education={education} />
         <Contact />
         <footer>
             <p id="Copyright">&copy; 2026 Zyra Nadine Flores. All rights reserved.</p>
