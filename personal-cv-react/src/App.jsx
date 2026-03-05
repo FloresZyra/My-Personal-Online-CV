@@ -1,3 +1,4 @@
+
 import Header from "./components/Header";
 import About from "./components/About";
 import Skills from "./components/Skills";
@@ -38,9 +39,9 @@ function App() {
   ];
     
   return (
-    <><div className={darkMode ? "dark-mode" : ""}>
+    <><div className={darkMode ? "app-container dark-mode" : "app-container"}>
       <button id="themeToggle" onClick={() => setDarkMode(!darkMode)}>
-        Toggle Dark Mode
+        Switch to {darkMode ? "Light" : "Dark"} Mode
       </button>
       <><div>
         <h1 id="Title">My Personal Online CV</h1>

@@ -10,9 +10,9 @@ function About() {
                             <img id="ProfilePic" src={profilePic} alt="Profile photo"></img>
 
                                 <p>Email:
-                                    <a href="mailto:flores.zyra0605@gmail.com">flores.zyra0605@gmail.com</a><br></br>
+                                    <a href="mailto:flores.zyra0605@gmail.com"> flores.zyra0605@gmail.com</a><br></br>
                                         GitHub:
-                                        <a href="https://github.com/FloresZyra" target="_blank">github.com/FloresZyra</a>
+                                        <a href="https://github.com/FloresZyra" target="_blank"> github.com/FloresZyra</a>
                                     </p>
 
 
