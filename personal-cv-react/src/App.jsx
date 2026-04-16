@@ -4,6 +4,7 @@ import About from "./components/About";
 import Skills from "./components/Skills";
 import Education from "./components/Education";
 import Contact from "./components/Contact";
+import ContactList from "./components/ContactList";
 import { useState } from "react";
 
 function App() {
@@ -51,6 +52,7 @@ function App() {
         <Skills skills={skills} />
         <Education education={education} />
         <Contact />
+        <ContactList />
         <footer>
             <p id="Copyright">&copy; 2026 Zyra Nadine Flores. All rights reserved.</p>
         </footer>

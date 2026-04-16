@@ -61,6 +61,8 @@ function Contact() {
         ></textarea>
         <button type="submit">Send</button>
       </form>
+      
+      
     </section>
   );
 }
